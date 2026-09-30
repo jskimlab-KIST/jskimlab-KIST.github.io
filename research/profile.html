@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Research · Lab</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div id="site-nav"></div>
+<main class="wrap detail" id="research-profile">
+  <a class="back" href="index.html">← All research</a>
+  <div class="detailimg" style="margin-top:24px">
+    <img id="research-profile-image" src="../assets/images/cv.svg" alt="">
+  </div>
+
+  <div class="kicker" id="research-profile-eyebrow"></div>
+  <h1 id="research-profile-title"></h1>
+  <p id="research-profile-summary"></p>
+
+  <section class="section" id="research-profile-topics-section">
+    <div class="head">
+      <div>
+        <div class="kicker">RESEARCH TOPICS</div>
+        <h2>Topics</h2>
+      </div>
+    </div>
+    <div class="topics" id="research-profile-topics"></div>
+  </section>
+
+  <section class="section" id="research-profile-projects-section">
+    <div class="head">
+      <div>
+        <div class="kicker">SELECTED PROJECTS</div>
+        <h2>Projects</h2>
+      </div>
+    </div>
+    <div class="projects" id="research-profile-projects"></div>
+  </section>
+</main>
+<div id="site-footer"></div>
+<script src="../assets/js/content.js"></script>
+<script src="../assets/js/site.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded",function(){
+  renderNav("../");
+  renderFooter();
+  renderResearchProfile();
+});
+</script>
+</body>
+</html>

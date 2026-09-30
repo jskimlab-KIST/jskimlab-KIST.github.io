@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>People · Lab</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div id="site-nav"></div>
+<main id="person-profile" class="wrap detail">
+  <div class="profile-grid">
+    <div><div class="profile-photo"><img id="person-photo" src="" alt=""></div></div>
+    <div class="profile-copy">
+      <div class="kicker" id="person-role"></div>
+      <h1 id="person-name"></h1>
+      <p id="person-bio"></p>
+      <div class="profile-contact" id="person-contact"></div>
+      <section class="profile-section" id="section-interests">
+        <div class="kicker">RESEARCH INTERESTS</div>
+        <div class="topics" id="person-interests"></div>
+      </section>
+      <section class="profile-section" id="section-education">
+        <div class="kicker">EDUCATION</div>
+        <div class="projects" id="person-education"></div>
+      </section>
+      <section class="profile-section" id="section-experience">
+        <div class="kicker">EXPERIENCE</div>
+        <div class="projects" id="person-experience"></div>
+      </section>
+      <section class="profile-section" id="section-awards">
+        <div class="kicker">AWARDS</div>
+        <div class="projects" id="person-awards"></div>
+      </section>
+      <section class="profile-section" id="section-projects">
+        <div class="kicker">PROJECTS</div>
+        <div class="projects" id="person-projects"></div>
+      </section>
+      <section class="profile-section" id="section-publications">
+        <div class="kicker">SELECTED PUBLICATIONS</div>
+        <div id="person-publications"></div>
+      </section>
+    </div>
+  </div>
+  <p style="margin-top:55px"><a class="back" href="index.html">← All people</a></p>
+</main>
+<div id="site-footer"></div>
+<script src="../assets/js/content.js"></script>
+<script src="../assets/js/site.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded",function(){
+  renderNav("../");
+  renderFooter();
+  renderPersonPage();
+});
+</script>
+</body>
+</html>
