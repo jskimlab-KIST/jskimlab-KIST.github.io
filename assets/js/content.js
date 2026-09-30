@@ -145,7 +145,6 @@ const LAB = {
       education:["Ph.D. in Electrical Engineering, KAIST","M.S. in Electrical Engineering, KAIST"],
       email:"junsik.kim@kist.re.kr",
       scholar:"https://scholar.google.com/citations?user=VhJn8rYAAAAJ",
-     // publications:["Learning Structured Representations for Open-World Visual Reasoning"]
     },
     {
       slug:"k_min",
