@@ -4,7 +4,7 @@
 .research-rich-item{overflow:hidden}.research-item-image{width:100%;aspect-ratio:16/9;border-radius:14px;overflow:hidden;margin-bottom:18px;background:#090d14}.research-item-image img{width:100%;height:100%;object-fit:cover;display:block}.research-item-content h3{margin:0 0 8px}.research-item-content p{margin:0;color:#98a3b5;font-size:14px;line-height:1.65}.research-item-content .more{display:inline-block;margin-top:12px}.topic.research-rich-item{padding:0;border-top:1px solid #ffffff14;background:#0d1119;border-radius:18px;padding:18px}.project.research-rich-item{padding:18px}.research-rich-item:has(.research-item-image){border-top:0}
 
 /* Join page: multiline, data-driven sections */
-#join-page-description,.join-multiline{white-space:pre-line}
+#join-page-description,.join-multiline{white-space:pre-wrap}
 .join-section-block{padding:42px 0;border-top:1px solid #ffffff13}
 .join-section-block:first-child{padding-top:0;border-top:0}
 .join-section-block h2{font-size:36px;line-height:1.1;letter-spacing:-.04em;margin:8px 0 18px}
