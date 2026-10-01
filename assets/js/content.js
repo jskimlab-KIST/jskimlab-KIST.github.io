@@ -250,7 +250,7 @@ SDR 공통서비스프레임워크 구축 연구
   ],
 
   news: [
-   // {date:"2026.03",title:"Our lab is now open for new research collaborations."},
+   {date:"2026.10",title:"We are searching for new members. Please check the join section."},
    // {date:"2026.01",title:"New projects in vision, learning, and embodied intelligence."}
   ]
 };
