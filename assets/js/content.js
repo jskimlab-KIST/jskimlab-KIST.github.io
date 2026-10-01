@@ -36,7 +36,14 @@ const LAB = {
       "대학원 학연과정",
       "현장실습"
     ],
-    contactText: "For inquiries about available positions, please contact us.",
+  //  contactText: "For inquiries about available positions, please contact us.",
+      context: `
+We welcome undergraduate students, graduate students,
+research interns, and postdoctoral researchers.
+
+Please include a brief introduction, your research
+interests, and your CV when contacting us.
+  `,
     email: "junsik.kim@kist.re.kr"
 
   },
