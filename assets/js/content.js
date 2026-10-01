@@ -37,13 +37,12 @@ const LAB = {
       "현장실습"
     ],
   //  contactText: "For inquiries about available positions, please contact us.",
-      contactText: "
-We welcome undergraduate students, graduate students,
+      contactText: ` We welcome undergraduate students, graduate students,
 research interns, and postdoctoral researchers.\n
 
 Please include a brief introduction, your research
 interests, and your CV when contacting us.
-  ",
+  `,
     email: "junsik.kim@kist.re.kr"
 
   },
