@@ -34,11 +34,11 @@ robotics, and intelligent systems.`,
 
     // Add, remove, or reorder sections freely. Empty title/text values are hidden automatically.
     sections: [
-      {
-        title: "Who We Are Looking For",
-        text: `We welcome undergraduate students, graduate students,
-research interns, and postdoctoral researchers.`
-      },
+    //  {
+    //    title: "Who We Are Looking For",
+    //    text: `We welcome undergraduate students, graduate students,
+//research interns, and postdoctoral researchers.`
+//      },
       {
         title: "Open Positions",
         items: [
