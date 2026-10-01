@@ -221,7 +221,7 @@ SDR 공통서비스프레임워크 구축 연구
       slug:"j-kwak",
       name:"Jiwon Kwak",
       role:"Undergrad Student",
-      photo:"assets/images/people/ㅓ_kwak.jpg",
+      photo:"assets/images/people/J_kwak.jpg",
       ///bio:"S. Choi researches planning, robotics, and vision-guided embodied intelligence.",
       interests:["Planning","VLN"],
       education:["in pursuing a B.S. in SNUT"],
