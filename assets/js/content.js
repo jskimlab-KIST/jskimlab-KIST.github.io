@@ -50,15 +50,25 @@ const LAB = {
       {
         title: "연구 분야",
         text: `휴머노이드 로봇을 위한 Lifelong semantic mapping 기술 개발
+            - LiDAR-Camera-IMU 등 다중센서 융합 기술
+            - 지속적 지도 갱신 기술
 휴머노이드 로봇을 위한 비전-언어-네비게이션(VLN) 기술 개발
+            - 영상기반 mapless navigation 기술
+            - Agentic AI 기술
 휴머노이드 로봇을 위한 로봇파운데이션모델 적용 기술 개발
-SDR 공통서비스프레임워크 구축 연구`
-      },
-      {
-        title: "How to Apply",
-        text: `Please include a brief introduction, your research interests,
-and your CV when contacting us.`
-      }
+            - Loco-manipulation 기술
+            - 작업 계획 기술
+            - Human video 분석 기술
+SDR 공통서비스프레임워크 구축 연구
+            - 알고리즘 구현 및 적용
+(우대) C/C++, ROS/ROS2 개발 경험, 센서 인터페이스 개발 경험 우대
+
+상기 내용중 협의를 통해 한 가지 이상 주제를 정해 관련 연구 참여
+`      }//,
+      //{
+      //  title: "How to Apply",
+      //  text: `Please include a brief introduction, your research interests, and your CV when contacting us.`
+      //}
     ],
 
     contactText: `For inquiries about available positions, please contact us.`,
