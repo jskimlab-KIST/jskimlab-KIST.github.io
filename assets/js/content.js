@@ -28,9 +28,7 @@ const LAB = {
     kicker: "JOIN US",
     title: "Come build the future with us.",
     description: "We are looking for curious researchers who want to push the boundaries of intelligent systems.",
-    pageDescription: `We welcome motivated researchers 
-    interested in computer vision, machine learning,
-robotics, and intelligent systems.`,
+    pageDescription: `We welcome motivated researchers interested in computer vision, machine learning, robotics, and intelligent systems.`,
 
     // Add, remove, or reorder sections freely. Empty title/text values are hidden automatically.
     sections: [
@@ -48,6 +46,13 @@ robotics, and intelligent systems.`,
           "대학원 학연과정",
           "현장실습"
         ]
+      },
+      {
+        title: "연구 분야",
+        text: `휴머노이드 로봇을 위한 Lifelong semantic mapping 기술 개발
+휴머노이드 로봇을 위한 비전-언어-네비게이션(VLN) 기술 개발
+휴머노이드 로봇을 위한 로봇파운데이션모델 적용 기술 개발
+SDR 공통서비스프레임워크 구축 연구`
       },
       {
         title: "How to Apply",
