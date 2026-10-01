@@ -10,3 +10,16 @@
 .join-section-block h2{font-size:36px;line-height:1.1;letter-spacing:-.04em;margin:8px 0 18px}
 .join-section-block .join-multiline{max-width:820px;color:#aeb7c6;font-size:17px}
 .join-section-block .projects{margin-top:24px}
+
+/* Navigation fix: remove the non-functional MENU label and keep navigation usable on small screens. */
+.menu{display:none}
+@media(max-width:850px){
+  .nav{height:auto;min-height:82px;gap:18px;padding:18px 0;align-items:center}
+  .brand{flex:0 0 auto}
+  .links{display:flex;flex:1;justify-content:flex-end;gap:18px;overflow-x:auto;white-space:nowrap;font-size:12px;scrollbar-width:none}
+  .links::-webkit-scrollbar{display:none}
+}
+@media(max-width:620px){
+  .nav{align-items:flex-start;flex-direction:column;gap:12px}
+  .links{width:100%;justify-content:flex-start;padding-bottom:2px}
+}
