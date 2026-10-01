@@ -28,7 +28,8 @@ const LAB = {
     kicker: "JOIN US",
     title: "Come build the future with us.",
     description: "We are looking for curious researchers who want to push the boundaries of intelligent systems.",
-    pageDescription: `We welcome motivated researchers interested in computer vision, machine learning,
+    pageDescription: `We welcome motivated researchers 
+    interested in computer vision, machine learning,
 robotics, and intelligent systems.`,
 
     // Add, remove, or reorder sections freely. Empty title/text values are hidden automatically.
