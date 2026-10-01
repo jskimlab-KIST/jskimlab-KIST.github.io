@@ -28,21 +28,34 @@ const LAB = {
     kicker: "JOIN US",
     title: "Come build the future with us.",
     description: "We are looking for curious researchers who want to push the boundaries of intelligent systems.",
-    pageDescription: "We welcome motivated researchers interested in computer vision, machine learning, robotics, and intelligent systems.",
-    positions: [
-      "박사후 연구원",
-      "석사후 연구원",
-      "연구인턴",
-      "대학원 학연과정",
-      "현장실습"
-    ],
-  //  contactText: "For inquiries about available positions, please contact us.",
-      contactText: ` We welcome undergraduate students, graduate students,
-research interns, and postdoctoral researchers.\n
+    pageDescription: `We welcome motivated researchers interested in computer vision, machine learning,
+robotics, and intelligent systems.`,
 
-Please include a brief introduction, your research
-interests, and your CV when contacting us.
-  `,
+    // Add, remove, or reorder sections freely. Empty title/text values are hidden automatically.
+    sections: [
+      {
+        title: "Who We Are Looking For",
+        text: `We welcome undergraduate students, graduate students,
+research interns, and postdoctoral researchers.`
+      },
+      {
+        title: "Open Positions",
+        items: [
+          "박사후 연구원",
+          "석사후 연구원",
+          "연구인턴",
+          "대학원 학연과정",
+          "현장실습"
+        ]
+      },
+      {
+        title: "How to Apply",
+        text: `Please include a brief introduction, your research interests,
+and your CV when contacting us.`
+      }
+    ],
+
+    contactText: `For inquiries about available positions, please contact us.`,
     email: "junsik.kim@kist.re.kr"
 
   },

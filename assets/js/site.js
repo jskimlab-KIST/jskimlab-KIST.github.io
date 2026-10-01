@@ -95,12 +95,32 @@ function renderJoinPage() {
   const j = LAB.join || {};
   const title = document.getElementById("join-page-title");
   const desc = document.getElementById("join-page-description");
-  const positions = document.getElementById("join-positions");
+  const sections = document.getElementById("join-sections");
   const contact = document.getElementById("join-contact");
   if (title) title.textContent = j.title || "Join Our Lab";
-  if (desc) desc.textContent = j.pageDescription || j.description || "";
-  if (positions) positions.innerHTML = (j.positions || []).map(function(x){ return '<div class="project">' + esc(x) + '</div>'; }).join("");
-  if (contact) contact.innerHTML = '<p class="muted">' + esc(j.contactText || "Contact us for opportunities.") + '</p><a class="btn primary" href="mailto:' + esc(j.email || LAB.email || "") + '">' + esc(j.email || LAB.email || "Contact us") + ' ↗</a>';
+  if (desc) {
+    desc.textContent = j.pageDescription || j.description || "";
+    if (!desc.textContent.trim()) desc.remove();
+  }
+  if (sections) {
+    const blocks = (j.sections || []).map(function(sec){
+      if (!sec) return "";
+      const heading = sec.title ? '<div class="kicker">JOIN US</div><h2>' + esc(sec.title) + '</h2>' : '';
+      const body = sec.text ? '<p class="join-multiline">' + esc(sec.text) + '</p>' : '';
+      const items = (sec.items || []).filter(Boolean);
+      const list = items.length ? '<div class="projects">' + items.map(function(x){ return '<div class="project">' + esc(x) + '</div>'; }).join("") + '</div>' : '';
+      if (!heading && !body && !list) return "";
+      return '<div class="join-section-block">' + heading + body + list + '</div>';
+    }).join("");
+    sections.innerHTML = blocks;
+    if (!blocks.trim()) sections.remove();
+  }
+  if (contact) {
+    const email = j.email || LAB.email || "";
+    const text = j.contactText || "Contact us for opportunities.";
+    contact.innerHTML = '<div><div class="kicker">CONTACT</div><p class="muted join-multiline">' + esc(text) + '</p></div>' + (email ? '<a class="btn primary" href="mailto:' + esc(email) + '">' + esc(email) + ' ↗</a>' : '');
+    if (!text.trim() && !email) contact.remove();
+  }
 }
 
 function renderResearchIndex() {
