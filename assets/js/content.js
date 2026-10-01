@@ -37,7 +37,7 @@ const LAB = {
       "현장실습"
     ],
   //  contactText: "For inquiries about available positions, please contact us.",
-      context: `
+      contactText: `
 We welcome undergraduate students, graduate students,
 research interns, and postdoctoral researchers.
 
